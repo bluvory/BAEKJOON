@@ -8,7 +8,6 @@ res = ""
 for i in zip(*arr):
   if len(set(i)) == 1:
     res += i[0]
-    print(set(i), res, i[0])
   else:
     res += "?"
 
